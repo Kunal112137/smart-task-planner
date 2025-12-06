@@ -1,6 +1,11 @@
 #  Smart Task Planner
-## 🎥 Demo Video
+##  Demo Video  ##
 [![Watch the video](https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge)](https://vimeo.com/1144152879?fl=tl&fe=ec)
+
+Alternative 
+##  Demo Video  ##
+[Watch on google drive](https://drive.google.com/drive/folders/1-44KAhqAiNjQ8tLfLBQYP7VhL-zE0-Ly?usp=drive_link)
+
 
 ##  Overview
 
