@@ -1,0 +1,95 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+}
+
+.error-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.error-card {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: box-shadow 0.3s;
+}
+
+.error-card h2 {
+  color: #c33;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.error-card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.error-button {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.error-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.error-button {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.error-button:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: scale(1.07);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+}

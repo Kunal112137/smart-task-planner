@@ -1,0 +1,30 @@
+{
+  "name": "smart-task-planner-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Smart Task Planner - AI-powered task breakdown system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "task-planner",
+    "goals",
+    "breakdown",
+    "timeline"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
